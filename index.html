@@ -222,7 +222,7 @@ select{
   font-weight:700;
 }
 .tablewrap{
-  height:calc(100vh - 186px);
+  height:calc(100vh - 150px);
   min-height:550px;
   margin:0;
   overflow:auto;
@@ -477,14 +477,14 @@ tr.rowerror td:first-child{
 @media(max-width:1050px){
   .stats{order:3;width:100%;margin-left:0}
   .stat{flex:1}
-  .tablewrap{height:calc(100vh - 230px)}
+  .tablewrap{height:calc(100vh - 195px)}
 }
 @media(max-width:720px){
   .wrap{width:100%;margin:0;padding:0}
   .topbar{border-radius:0}
   .card{border-radius:0;padding-left:6px;padding-right:6px}
   .shortcuts{margin-left:-6px;margin-right:-6px}
-  .tablewrap{height:calc(100vh - 260px);min-height:430px}
+  .tablewrap{height:calc(100vh - 225px);min-height:430px}
 }
 </style>
 </head>
@@ -528,17 +528,7 @@ tr.rowerror td:first-child{
       </div>
     </div>
 
-    <div class="shortcuts">
-      <span><b>Flechas</b> navegar</span>
-      <span><b>Enter</b> bajar</span>
-      <span><b>Tab</b> siguiente</span>
-      <span><b>Shift+flechas</b> seleccionar</span>
-      <span><b>Ctrl/Cmd+C X V</b> copiar/cortar/pegar</span>
-      <span><b>Ctrl/Cmd+Z</b> deshacer</span>
-      <span><b>Ctrl+Y / Ctrl+Shift+Z</b> rehacer</span>
-      <span><b>Delete</b> borrar selección</span>
-      <span><b>Pegar 1 celda sobre un rango</b> rellena todo el rango</span>
-    </div>
+    
 
     <div class="tablewrap" id="tablewrap" tabindex="-1">
       <table>
